@@ -1,43 +1,41 @@
+/* CSS Document */
+
 body {
+	/* Sets the background color of the body to a shade of purple */
 	background-color: #7b00b5;
 }
 
-h1 {
+header {
+	/* Styles for the header sections. Changes text alignment, color, and font. Also adds a border and background color. */
 	text-align: center;
 	color: #ff75ba;
-	font-family: Cursive;
-	font-size: 40px;
+	font-family: cursive;
+	font-size: 20px;
+	border: 2px solid #500028;
+	background-color: #8a58ab;
+	border-radius: 10px;
+}
+
+footer {
+	/* Styles for the footer sections. Changes text alignment, color, and font. */
+	text-align: center;
+	color: #500028;
+	font-family: cursive;
+	font-size: 20px;
 }
 
 h2 {
-	text-align: center;
-	color: #ff75ba;
-	font-family: Cursive;
+	/*Changes font size of h2 elements to 30px*/
 	font-size: 30px;
 }
 
 h3 {
-	text-align: left;
-	color: #ff75ba;
-	font-family: Cursive;
+	/*Changes font size of h3 elements to 20px*/
 	font-size: 20px;
 }
 
 p {
-	text-align: left;
-	color: #ffffff;
-	font-family: Arial, sans-serif;
-	font-size: 14px;
-}
-
-ol {
-	text-align: left;
-	color: #ffffff;
-	font-family: Arial, sans-serif;
-	font-size: 14px;
-}
-
-ul {
+	/* Styles for paragraph elements. Changes text alignment, color, font family, and font size. */
 	text-align: left;
 	color: #ffffff;
 	font-family: Arial, sans-serif;
@@ -45,8 +43,71 @@ ul {
 }
 
 a {
+	/* Styles for anchor elements. Changes text color. */
 	color: #500028;
+}
+
+img {
+	/* Styles for image elements. Adds a border, margin, and border radius. */
+	border: 4px solid #dd75ff;
+	margin-right: 25%;
+	margin-left: 25%;
+	border-radius: 10px;
+}
+
+ul, ol {
+	/* Styles for ordered and unordered lists. Changes text alignment, color, font family, font size, border, padding, and border radius. */
+	background-color: #8a58ab;
+	text-align: left;
+	color: #ffffff;
 	font-family: Arial, sans-serif;
 	font-size: 14px;
-	font-weight: bold;
+	border: 1px solid #500028;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+section {
+	/* Styles for sections. Adds padding and margin to the bottom of the section. */
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.heading {
+	/* Styles for elements with the class "heading". Changes text alignment, color, font family, background color, border, padding, and border radius. */
+	text-align: center;
+	color: #ff75ba;
+	font-family: cursive;
+	background-color: #8a58ab;
+	border: 2px solid #500028;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.paragraph {
+	/* Styles for elements with the class "paragraph". Changes text alignment, color, font family, font size,  border, background color, padding, and border radius. */
+	border: 1px solid #500028;
+	background-color: #8a58ab;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#wrestling-image {
+	/* Styles for the element with the ID "wrestling-image". Changes the width of the image to 50% of its container. */
+	width: 50%;
+}
+
+#introduction {
+	/* Adds a top margin of 20px to the element with the ID "introduction". */
+	margin-top: 20px;
+}
+
+/* Places wrestling styles side by side using Flexbox */
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+
+.flex-container div {
+    flex: 1;
 }
