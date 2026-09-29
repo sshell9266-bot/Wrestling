@@ -111,3 +111,28 @@ section {
 .flex-container div {
     flex: 1;
 }
+
+/* Adjusts the website layout for smaller screens */
+@media (max-width: 768px) {
+	.flex-container {
+		flex-direction: column;
+	}
+
+	#wrestling-image {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	header {
+		font-size: 16px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+
+	section {
+		padding: 10px;
+	}
+}
