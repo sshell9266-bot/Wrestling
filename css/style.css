@@ -8,7 +8,7 @@ body {
 header {
 	/* Styles for the header sections. Changes text alignment, color, and font. Also adds a border and background color. */
 	text-align: center;
-	color: #ff75ba;
+	color: #ffc5e2;
 	font-family: cursive;
 	font-size: 20px;
 	border: 2px solid #500028;
@@ -19,7 +19,7 @@ header {
 footer {
 	/* Styles for the footer sections. Changes text alignment, color, and font. */
 	text-align: center;
-	color: #500028;
+	color: #eec2ff;
 	font-family: cursive;
 	font-size: 20px;
 }
@@ -44,7 +44,7 @@ p {
 
 a {
 	/* Styles for anchor elements. Changes text color. */
-	color: #500028;
+	color: #eec2ff;
 }
 
 img {
@@ -76,7 +76,7 @@ section {
 .heading {
 	/* Styles for elements with the class "heading". Changes text alignment, color, font family, background color, border, padding, and border radius. */
 	text-align: center;
-	color: #ff75ba;
+	color: #ffc5e2;
 	font-family: cursive;
 	background-color: #8a58ab;
 	border: 2px solid #500028;
