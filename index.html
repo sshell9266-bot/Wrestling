@@ -4,6 +4,7 @@
 <head>
     <!--Contains the main title of the website and the stylesheet link-->
     <title>Women's Wrestling: Training and Competition</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -12,7 +13,7 @@
         <!--Header that contains the title of current page-->
         <h1>Women's Wrestling</h1>
     </header>
-    <main>
+    <main class="container">
         <!--Main section that contains information about women's wrestling-->
         <p id="introduction" class="paragraph">Women's wrestling is a competitive sport that involves physical strength, technique, and strategy. Wrestlers
             compete in various weight classes and age groups. It is currently one of the fastest growing sports in the
@@ -24,8 +25,8 @@
             <h2 class="heading">How Matches Work</h2>
             <p class="paragraph">Depending on the style of wrestling, matches are structured differently and have different rules. </p>
 
-        <div class="flex-container">
-            <div>
+        <div class="row g-3">
+            <div class="col-md-6">
             <h3 class="heading">Folkstyle Match Structure</h3>
                 <ul>
                     <li>3 2-minute periods</li>
@@ -37,7 +38,7 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="col-md-6">
                 <h3 class="heading">Freestyle Match Structure</h3>
                 <ul>
                     <li>2 3-minute periods</li>
@@ -60,11 +61,11 @@
                 Mouth guards are also worn sometimes but are not required unless you have braces.</p>
         </section>
 
-        <img src="images/wrestling-picture.jpg" alt="Two wrestlers competing in a freestyle wrestling match" id="wrestling-image">
+        <img src="images/wrestling-picture.jpg" alt="Two wrestlers competing in a freestyle wrestling match" id="wrestling-image" class="image-fluid d-block mx-auto mb-4">
     </main>
-    <footer>
+    <footer class="container mb-3">
         <!--Footer that contains a link to another page-->
-        <a href="page2.html">Learn more about wrestling training and competition</a>
+        <a href="page2.html" class="btn btn-light">Learn more about wrestling training and competition</a>
     </footer>
 </body>
 

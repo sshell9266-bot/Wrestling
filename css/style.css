@@ -14,6 +14,9 @@ header {
 	border: 2px solid #500028;
 	background-color: #8a58ab;
 	border-radius: 10px;
+	margin-bottom: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 footer {
@@ -50,8 +53,6 @@ a {
 img {
 	/* Styles for image elements. Adds a border, margin, and border radius. */
 	border: 4px solid #dd75ff;
-	margin-right: 25%;
-	margin-left: 25%;
 	border-radius: 10px;
 }
 
@@ -102,26 +103,11 @@ section {
 	margin-top: 20px;
 }
 
-/* Places wrestling styles side by side using Flexbox */
-.flex-container {
-    display: flex;
-    gap: 20px;
-}
-
-.flex-container div {
-    flex: 1;
-}
-
 /* Adjusts the website layout for smaller screens */
 @media (max-width: 768px) {
-	.flex-container {
-		flex-direction: column;
-	}
-
 	#wrestling-image {
 		width: 90%;
-		margin-left: 5%;
-		margin-right: 5%;
+
 	}
 
 	header {
